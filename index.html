@@ -7,8 +7,9 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="site.css">
+    <link rel="stylesheet" href="/css/site.css">
 
+    <link rel="icon" href="/media/Logo-Panda-No-Text.png">
     <title>Pandamonium Games</title>
   </head>
   <body>
@@ -19,31 +20,41 @@
 
         <div class="col-12">
           <div class="d-flex justify-content-center" style="align-items: flex-start;">
-            <img id="logo" src="media/Logo-Panda-Black-Long.png" alt="logo">
+            <img id="logo" src="/media/Logo-Panda-Black-Long.png" alt="logo">
           </div>
         </div>
 
+        <nav class="navbar navbar-expand-sm navbar-light bg-light mb-3 w-100">
+          <div class="container">
+            <div class="navbar-brand active"></div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav d-flex justify-content-between w-100">
+                <a class="nav-item nav-link active" href="/">Home</a>
+                <a class="nav-item nav-link" href="/apps">Games & Apps</a>
+                <a class="nav-item nav-link" href="/about.html">About</a>
+                <a class="nav-item nav-link" href="/support.html">Support</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+
         <div class="col-12">
           <div class="container">
-            <h2>Support</h2>
-            <p>If you would like to contact us please <strong>fill out the form below</strong>. Alternativly you can email us directly at pandamonium.devteam@gmail.com</p>
 
-            <form action="javascript:sendMail();" name="pmForm" id="pmForm" method="post">
-              <div class="form-row">
-                <div class="form-group col-12 col-md-6">
-                  <label for="subject">Subject</label>
-                  <input id="subject" type="text" class="form-control" aria-describedby="subject" placeholder="Please enter your subject" maxlength="64" />
-                </div>
+            <div class="row mt-4">
+              <div class="d-flex justify-content-center justify-content-sm-start col-12 col-sm-5 col-md-4 col-lg-3">
+                <div><img class="Icon" src="/media/Logo-Panda-Black-Square.png" alt="logo"></div>
               </div>
-              <div class="form-row">
-                <div class="form-group col-12">
-                  <label for="body">Body</label>
-                  <textarea id="body" type="text" class="form-control" placeholder="Please enter your body"></textarea>
-                </div>
+              <div class="app-content-short col-12 col-sm-7 col-md-8 col-lg-9 mt-2 mt-sm-0">
+                <h2 class="text-center text-sm-left">Welcome to Pandamonium Games</h2>
+                <p>I am a solo indie developer dedicated to creating fun and unique games! All my games are made purely for the joy of game development. I hope you enjoy playing it as much as I did making it.</p>
+                <p>Go check out my latest <a class="link" href="/apps">games & apps</a>, your new favorite game might be just around the corner!</p>   
               </div>
-              <button type="submit" class="btn btn-outline-secondary">Send</button>
-            </form>
-
+            </div>
+            
           </div>
         </div>
         
@@ -56,6 +67,6 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="site.js"></script>
+    <script src="/javascript/site.js"></script>
   </body>
 </html>

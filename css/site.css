@@ -1,0 +1,16 @@
+#logo {
+	width: 300px;
+}
+
+.Icon {
+	width: 200px;
+	border-radius: 20px;
+}
+
+a .Icon {
+	cursor: pointer;
+}
+
+img.button {
+	width: 100px;
+}
