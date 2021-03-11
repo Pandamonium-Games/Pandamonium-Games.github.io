@@ -14,3 +14,7 @@ a .Icon {
 img.button {
 	width: 100px;
 }
+
+.navbar-brand {
+	font-size: small;
+}
